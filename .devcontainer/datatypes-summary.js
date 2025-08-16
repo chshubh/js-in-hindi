@@ -32,10 +32,11 @@ let anotherName = "myYoutubename"
 console.log(anotherName);
 
 let userone = {
-    email:"user@google.com"
-
+    email:"user@google.com",
+    upi:"user@ybl"
 
 }
 let usertwo = userone
 usertwo.email="shivam@google.com"
-HTMLFormControlsCollection.lo("usertwo");
+console.log(usertwo.email);
+
